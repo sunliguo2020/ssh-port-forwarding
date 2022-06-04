@@ -19,4 +19,10 @@
 		1.1 Debian中安装autossh，并将公钥保存到阿里云的centos上。
 		1.2 autossh -M 53305 -NR 127.0.0.1:53306:192.168.1.207:3306 sunliguo@blog.sunliguo.com -f -p 22
 			其中192.168.1.207为mysql数据库的ip，3306为端口号。Debian和数据库在同一个网段中，可以直接访问。
+			[root@aliyun ssh]# netstat -nltp
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:53305         0.0.0.0:*               LISTEN      529425/sshd: sunlig
+tcp        0      0 127.0.0.1:53306         0.0.0.0:*               LISTEN      529425/sshd: sunlig
+
 			
