@@ -1,0 +1,3 @@
+
+
+autossh -M 53305 -NR 127.0.0.1:53306:192.168.1.207:3306 sunliguo@blog.sunliguo.com -f -p 22
