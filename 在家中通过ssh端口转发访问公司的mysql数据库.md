@@ -1,5 +1,6 @@
 ---
 typora-root-url: pic
+typora-copy-images-to: pic
 ---
 
 ### 项目背景：
@@ -32,7 +33,7 @@ typora-root-url: pic
 
 
 	autossh -M 53305 -NR 127.0.0.1:53306:192.168.1.207:3306 sunliguo@blog.sunliguo.com -f -p 22
-	
+
 
 ​	其中192.168.1.207为mysql数据库的ip，3306为端口号。Debian和数据库在同一个网段中，可以直接访问。		
 
@@ -57,6 +58,6 @@ typora-root-url: pic
 
 ###### 	2.2：Tools ->MobaSSHTunel(port forwarding)
 
-<img src="D:\桌面\ssh端口转发\pic\image-20220604185718562.png" alt="image-20220604185718562" style="zoom:80%;" />
 
-<img src="D:\桌面\ssh端口转发\pic\2022-06-04_182217.png" alt="2022-06-04_182217" style="zoom: 80%;" />
+
+![image-20220604185718562](/image-20220604185718562.png)![2022-06-04_182217](/2022-06-04_182217.png)
